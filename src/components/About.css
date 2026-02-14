@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: clamp(1.5rem, 4vw, 2.5rem);
+  gap: clamp(2rem, 5vw, 3rem);
   margin: auto;
-  padding: clamp(2rem, 4vw, 3rem) clamp(1rem, 4vw, 2.5rem);
+  padding: clamp(2.5rem, 6vw, 4rem) clamp(1.5rem, 6vw, 3.5rem);
   background: #2d0d3a;
 }
 
@@ -13,9 +13,9 @@
 }
 
 .about__photo {
-  width: clamp(180px, 20vw, 260px);
-  height: min(52vh, 360px);
-  border-radius: 16px;
+  width: clamp(240px, 26vw, 360px);
+  height: min(68vh, 520px);
+  border-radius: 18px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -25,24 +25,24 @@
 }
 
 .about__text {
-  max-width: min(660px, 100%);
+  max-width: min(780px, 100%);
 }
 
 .about__text h2 {
-  font-size: clamp(1.85rem, 2.8vw, 2.5rem);
-  margin: 0 0 0.5rem 0;
+  font-size: clamp(2.15rem, 3.2vw, 2.9rem);
+  margin: 0 0 0.6rem 0;
 }
 
 .about__text strong {
-  font-size: clamp(1.1rem, 1.2vw + 0.3rem, 1.25rem);
+  font-size: clamp(1.3rem, 1.4vw + 0.4rem, 1.5rem);
   display: block;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.9rem;
 }
 
 .about__text p {
-  margin: 0 0 1rem 0;
+  margin: 0 0 1.15rem 0;
   line-height: 1.65;
-  font-size: clamp(1rem, 1.1vw + 0.2rem, 1.15rem);
+  font-size: clamp(1.15rem, 1.25vw + 0.3rem, 1.35rem);
 }
 
 .about__text p:last-child {
@@ -63,9 +63,9 @@
   }
 
   .about__photo {
-    width: min(260px, 85vw);
+    width: min(320px, 88vw);
     height: auto;
     aspect-ratio: 3/4;
-    max-height: 52vh;
+    max-height: 65vh;
   }
 }
