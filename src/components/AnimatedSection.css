@@ -1,0 +1,19 @@
+/* In: enter from below + fade. Out: fade/slide when leaving. Longer duration for visibility. */
+.animated-section {
+  opacity: 0;
+  transform: translateY(56px);
+  transition:
+    opacity 0.95s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.95s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.animated-section--in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animated-section--out {
+  opacity: 0.25;
+  transform: translateY(28px);
+  transition-duration: 0.5s;
+}

@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #22072b;
+  color: #fff;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+/* Shared social button style */
+.social-svg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #2d0d3a;
+  border-radius: 14px;
+  padding: 8px;
+  margin: 0;
+  object-fit: contain;
+  transition: background 0.2s ease, transform 0.2s ease;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-svg:hover {
+  background: #3d1550;
+  transform: scale(1.05);
+}
+
+.social-svg svg {
+  color: #fff;
+}
+
+.projects__link.social-svg {
+  width: auto;
+  height: auto;
+  padding: 0.25rem 0.5rem;
+  gap: 0.35rem;
+}
+
+.projects__link.social-svg:hover {
+  transform: none;
+}
